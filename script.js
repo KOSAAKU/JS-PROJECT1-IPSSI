@@ -6,7 +6,7 @@ const cats = [
         "race": "test",
         "origin": "test",
         "description": "Putain qu'il est beau ce con"
-    },
+    }
 ];
 
 document.addEventListener('DOMContentLoaded', () => {
@@ -17,7 +17,7 @@ document.addEventListener('DOMContentLoaded', () => {
     audio.play();
 
     // Création d'une "carte" pour chaque chat
-    cats.forEach(cat => {
+    cats.forEach((cat, index) => {
         let card = document.createElement('div');
         card.className = 'card';
         card.innerHTML = `
@@ -27,6 +27,7 @@ document.addEventListener('DOMContentLoaded', () => {
             <p>${cat.description}</p>
         `;
         carrousel.appendChild(card);
+        console.log(`Loaded cat ${index + 1}: ${cat.race}`);
     });
 })
 

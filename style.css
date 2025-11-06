@@ -9,27 +9,47 @@
     background-color: #959595;
 }
 
+.head a {
+    color: #555;
+    background-color: #f0f0f0;
+    text-decoration: none;
+    border: #333 2px solid;
+    border-radius: 5px;
+    margin: 20px;
+    padding: 5px 10px;
+}
+
+.head a:hover {
+    background-color: #d1d0d0;
+}
+
 .rounded {
     border-radius: 0px 0px 15px 15px;
 }
 
+.carrousel {
+    display: flex;
+    justify-content: center;
+    padding: 120px;
+}
+
 .carrousel img {
     border-radius: 15px;
-    width: 100%;
+    width: 50%;
     height: auto;
     aspect-ratio: 16 / 9;
     object-fit: cover;
+    display: block;
 }
 
 .carrousel div {
     border: 2px solid black;
     border-radius: 15px;
-    width: fit-content;
-    height: fit-content;
-    margin: auto;
     padding: 5px;
+    width: fit-content;
     background-color: #f0f0f0;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    display: inline-block;
 }
 
 p {
@@ -39,4 +59,85 @@ p {
     margin-top: 10px;
     color: #333;
     text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.8);
+}
+
+h2 {
+    font-family: 'Goodly', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 15px;
+    color: #555;
+}
+
+input[type="submit"] {
+    border: none;
+    background-color: #ababab;
+    margin: 10px;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+input[type="submit"]:hover {
+    background-color: #8c8c8c;
+    cursor: pointer;
+}
+
+input[type="file"] {
+    margin: 10px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: 1px dashed #000000;
+    background-color: #f0f0f0;
+    cursor: pointer;
+}
+
+input[type="file"]:hover {
+    background-color: #d1d0d0;
+}
+
+input[type="text"] {
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    padding: 8px;
+    width: 200px;
+}
+
+input[type="text"]:focus {
+    border-color: #999999;
+    outline: none;
+}
+
+textarea {
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    padding: 8px;
+    width: 300px;
+    height: 100px;
+    resize: none;
+}
+
+.catForm {
+    text-align: center;
+    margin-top: 20px;
+    margin: 5% auto;
+    background-color: antiquewhite;
+    border: #555 2px dashed;
+    border-radius: 10px;
+    max-width: 30%;
+    padding: 20px;
+}
+
+label {
+    font-family: 'Goodly', sans-serif;
+    font-size: 20px;
+    color: #333;
+    margin-right: 10px;
+}
+
+h1 {
+    font-family: 'Goodly', sans-serif;
+    font-size: 28px;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #444;
 }
