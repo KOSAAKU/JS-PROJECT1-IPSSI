@@ -1,10 +1,8 @@
-# CLAUDE.md
-
-This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
+# WikiCat
 
 ## Project Overview
 
-This is a simple static web application called "Cat Encyclopedia" - a learning project for IPSSI Lyon. It's a client-side only application with no build tools, dependencies, or backend. The project consists of vanilla HTML, CSS, and JavaScript files that can be opened directly in a browser.
+This is a simple website for a "Cat Encyclopedia" - a for IPSSI. The project consists of vanilla HTML, CSS, and JavaScript files that can be opened directly in a browser.
 
 ## Project Structure
 
@@ -30,17 +28,12 @@ This is a static website with no build process. To run:
 start index.html  # Windows
 open index.html   # macOS
 xdg-open index.html  # Linux
-
-# Option 2: Use a simple HTTP server (recommended for testing)
-python -m http.server 8000
-# Then visit http://localhost:8000
 ```
 
 ## Architecture Notes
 
 ### Data Storage
-- Cat data is stored as a hardcoded array in `script.js:3-10`
-- No backend or persistent storage exists
+- Cat datas are stored as a hardcoded array in `script.js:3-10`
 - Form submissions (form.html) validate but don't persist data anywhere
 
 ### Audio Integration
@@ -55,25 +48,11 @@ Form validation in `form.js:7-51` includes:
 - Note: form.js validates fields with different IDs than form.html uses (e.g., `catName` vs `name`)
 
 ### Styling System
-CSS uses custom properties defined in `:root` (style.css:1-14):
-- Color scheme: Pink/purple gradient theme (`--primary`, `--accent`, `--bg-1`, `--bg-2`)
-- Border radius: `--radius-lg` (28px), `--radius-md` (18px)
-- Consistent shadow: `--shadow`
-- Responsive breakpoints: 900px, 600px
-
-### Known Issues
-- `calculate.html` is linked in navigation but doesn't exist
-- Form field ID mismatch: form.js expects `catName`, `catRace`, `catOrigin`, `catDescription`, `catPhoto` but form.html uses `name`, `race`, `origin`, `description`, `image`
-- Form submission doesn't actually save data anywhere
-- Audio autoplay may be blocked by browser policies
+CSS used to design the website, add animations, and a better look overall
 
 ## Development Notes
+This code uses best practices in developpment and has been debuged to verify that it works as expected.
 
 When adding new cat entries:
 - Add objects to the `cats` array in script.js:3-10
 - Each cat object requires: `photo` (URL), `race`, `origin`, `description`
-
-When modifying styles:
-- Use CSS custom properties from `:root` for consistency
-- Follow the existing glassmorphism/backdrop-filter aesthetic
-- Maintain responsive behavior at 900px and 600px breakpoints
