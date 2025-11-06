@@ -7,6 +7,9 @@
     <title>Cat Encyclopedia</title>
 </head>
 <body>
+    <div>
+        
+    </div>
     <audio id="audio" src="./assets/purr.wav" preload="auto" hidden></audio>
     <div id="navigate" class="head rounded">
         <a href="./">The encyclopedia</a>
@@ -14,6 +17,18 @@
         <a href="./form.html">Show your cat</a>
     </div>
     <div id="carrousel" class="carrousel"></div>
+
+    <!-- Modal Popup -->
+    <div id="catModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <img id="modalImage" src="" alt="">
+            <h2 id="modalRace"></h2>
+            <p id="modalOrigin"></p>
+            <p id="modalDescription"></p>
+        </div>
+    </div>
+
     <script src="script.js"></script>
 </body>
 </html>

@@ -83,10 +83,29 @@ const cats = [
 
 document.addEventListener('DOMContentLoaded', () => {
     let carrousel = document.getElementById("carrousel");
+    const modal = document.getElementById("catModal");
+    const closeBtn = document.querySelector(".close");
 
     // Jouer un son au chargement de la page
     const audio = document.getElementById("audio");
     audio.play();
+
+    // Fonction pour ouvrir la popup avec les informations du chat
+    function openModal(cat) {
+        document.getElementById("modalImage").src = cat.photo;
+        document.getElementById("modalImage").alt = cat.race;
+        document.getElementById("modalRace").textContent = cat.race;
+        document.getElementById("modalOrigin").textContent = `Origin: ${cat.origin}`;
+        document.getElementById("modalDescription").textContent = cat.description;
+        modal.style.display = "block";
+        document.body.style.overflow = "hidden"; // Empêcher le scroll en arrière-plan
+    }
+
+    // Fonction pour fermer la popup
+    function closeModal() {
+        modal.style.display = "none";
+        document.body.style.overflow = "auto"; // Réactiver le scroll
+    }
 
     // Création d'une "carte" pour chaque chat
     cats.forEach((cat, index) => {
@@ -98,7 +117,19 @@ document.addEventListener('DOMContentLoaded', () => {
             <p>Origin: ${cat.origin}</p>
             <p>${cat.description}</p>
         `;
+
+        // Ajouter un événement de clic sur la carte pour ouvrir la popup
+        card.addEventListener('click', () => {
+            openModal(cat);
+        });
+
+        // Ajouter un style cursor pointer pour indiquer que la carte est cliquable
+        card.style.cursor = 'pointer';
+
         carrousel.appendChild(card);
         console.log(`Loaded cat ${index + 1}: ${cat.race}`);
     });
+
+    // Fermer la popup en cliquant sur le bouton X
+    closeBtn.addEventListener('click', closeModal);
 });

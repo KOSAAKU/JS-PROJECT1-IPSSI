@@ -284,3 +284,148 @@ textarea {
     border-radius: 5px;
     resize: none;
 }
+
+/* Modal Popup Styles */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(45, 42, 50, 0.85);
+    backdrop-filter: blur(8px);
+    animation: fadeIn 0.3s ease;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.modal-content {
+    position: relative;
+    background: var(--surface);
+    margin: 5% auto;
+    padding: 0;
+    width: min(90%, 600px);
+    border-radius: var(--radius-lg);
+    box-shadow: 0 30px 80px rgba(173, 95, 140, 0.35);
+    border: 1px solid rgba(255, 255, 255, 0.55);
+    animation: slideDown 0.4s ease;
+    overflow: hidden;
+}
+
+@keyframes slideDown {
+    from {
+        transform: translateY(-50px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+.modal-content img {
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+    display: block;
+}
+
+.modal-content h2 {
+    font-size: 2rem;
+    margin: 32px 36px 16px;
+    color: var(--primary-dark);
+    font-weight: 700;
+    letter-spacing: 0.02em;
+}
+
+.modal-content p:first-of-type {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    font-weight: 600;
+    color: var(--accent);
+    background: rgba(109, 98, 255, 0.1);
+    padding: 8px 18px;
+    border-radius: 999px;
+    margin: 0 36px 20px;
+    font-size: 1.05rem;
+}
+
+.modal-content p:first-of-type::before {
+    content: "🌍";
+    font-size: 1.1rem;
+}
+
+.modal-content p:last-of-type {
+    margin: 0 36px 40px;
+    font-size: 1.05rem;
+    line-height: 1.8;
+    color: var(--text-muted);
+}
+
+.close {
+    position: absolute;
+    top: 20px;
+    right: 24px;
+    color: white;
+    font-size: 32px;
+    font-weight: bold;
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(45, 42, 50, 0.6);
+    backdrop-filter: blur(8px);
+    border-radius: 50%;
+    line-height: 1;
+}
+
+.close:hover,
+.close:focus {
+    background: var(--primary-dark);
+    box-shadow: 0 4px 12px rgba(255, 77, 148, 0.4);
+}
+
+@media (max-width: 600px) {
+    .modal-content {
+        margin: 10% auto;
+        width: 95%;
+    }
+
+    .modal-content img {
+        height: 250px;
+    }
+
+    .modal-content h2 {
+        font-size: 1.6rem;
+        margin: 24px 28px 12px;
+    }
+
+    .modal-content p {
+        margin: 0 28px 16px;
+        font-size: 0.95rem;
+    }
+
+    .modal-content p:last-of-type {
+        margin-bottom: 32px;
+    }
+
+    .close {
+        top: 16px;
+        right: 16px;
+        font-size: 28px;
+        width: 36px;
+        height: 36px;
+    }
+}
