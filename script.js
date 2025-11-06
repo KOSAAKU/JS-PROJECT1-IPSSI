@@ -11,6 +11,12 @@ const cats = [
 
 document.addEventListener('DOMContentLoaded', () => {
     let carrousel = document.getElementById("carrousel");
+
+    // Jouer un son au chargement de la page
+    const audio = document.getElementById("audio");
+    audio.play();
+
+    // Création d'une "carte" pour chaque chat
     cats.forEach(cat => {
         let card = document.createElement('div');
         card.className = 'card';
