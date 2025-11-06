@@ -29,5 +29,4 @@ document.addEventListener('DOMContentLoaded', () => {
         carrousel.appendChild(card);
         console.log(`Loaded cat ${index + 1}: ${cat.race}`);
     });
-})
-
+});
