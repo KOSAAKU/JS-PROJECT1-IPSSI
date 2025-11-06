@@ -1,3 +1,9 @@
+document.addEventListener('keydown', function() {
+    const audio = document.getElementById('audio');
+    audio.currentTime = 0;
+    audio.play();
+});
+
 function validateForm() {
     const catName = document.getElementById("catName").value;
     const catRace = document.getElementById("catRace").value;
