@@ -431,3 +431,42 @@ textarea {
         height: 36px;
     }
 }
+
+#cookie-banner {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #333;
+  color: white;
+  padding: 15px;
+  text-align: center;
+  z-index: 1000;
+}
+#cookie-banner button {
+  margin-left: 15px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+#accept-cookies {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+#accept-cookies:hover {
+  background-color: #45a049;
+}
+
+#decline-cookies {
+  background-color: #f44336;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+#decline-cookies:hover {
+  background-color: #d32f2f;
+}
