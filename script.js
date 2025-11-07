@@ -1,135 +1,124 @@
 //////////////////// ENCYCLOPEDIA ENTRY ////////////////////
 
 const cats = [
-    {
-        "photo": "https://cdn2.thecatapi.com/images/0XYvRd7oD.jpg",
-        "race": "Abyssinian",
-        "origin": "Ethiopia",
-        "description": "Athletic build, very curious and loves to climb everywhere."
-    },
-    {
-        "photo": "https://cdn2.thecatapi.com/images/ozEvzdVM-.jpg",
-        "race": "Siamese",
-        "origin": "Thailand",
-        "description": "Talkative and affectionate cat, always seeks human company."
-    },
-    {
-        "photo": "https://cdn2.thecatapi.com/images/unX21IBVB.jpg",
-        "race": "Maine Coon",
-        "origin": "United States",
-        "description": "Gentle giant with thick fur, loves to participate in all activities."
-    },
-    {
-        "photo": "https://cdn2.thecatapi.com/images/O3btzLlsO.png",
-        "race": "Bengal",
-        "origin": "United States",
-        "description": "Spectacular spotted coat, very playful and full of energy."
-    },
-    {
-        "photo": "https://cdn2.thecatapi.com/images/8D--jCd21.jpg",
-        "race": "Persian",
-        "origin": "Iran",
-        "description": "Elegant silhouette, calm temperament and daily brushing needed."
-    },
-    {
-        "photo": "https://cdn2.thecatapi.com/images/06dgGmEOV.jpg",
-        "race": "Norwegian Forest",
-        "origin": "Norway",
-        "description": "Loves wide open spaces, robust and equipped with thick undercoat."
-    },
-    {
-        "photo": "https://cdn2.thecatapi.com/images/BDb8ZXb1v.jpg",
-        "race": "Sphynx",
-        "origin": "Canada",
-        "description": "Hairless cat, very tactile and loves warmth and attention."
-    },
-    {
-        "photo": "https://cdn2.thecatapi.com/images/_4Aq8O6e6.jpg",
-        "race": "British Shorthair",
-        "origin": "United Kingdom",
-        "description": "Massive body and olympic calmness, prefers comfortable couches."
-    },
-    {
-        "photo": "https://cdn2.thecatapi.com/images/oGvStatRe.jpg",
-        "race": "Ragdoll",
-        "origin": "United States",
-        "description": "Completely relaxes in your arms, ideal for calm households."
-    },
-    {
-        "photo": "https://cdn2.thecatapi.com/images/Rhj-JsTLP.jpg",
-        "race": "Russian Blue",
-        "origin": "Russia",
-        "description": "Short double coat, discreet but very loyal to its family."
-    },
-    {
-        "photo": "https://cdn2.thecatapi.com/images/Z5llOwN5I.jpg",
-        "race": "Chartreux",
-        "origin": "France",
-        "description": "Legendary smile, agile and adapts well to apartment living."
-    },
-    {
-        "photo": "https://cdn2.thecatapi.com/images/wpK2GtlaD.jpg",
-        "race": "Exotic Shorthair",
-        "origin": "United States",
-        "description": "Short-haired version of Persian, loves naps and cuddles."
-    },
-    {
-        "photo": "https://cdn2.thecatapi.com/images/HOrX5gwLS.jpg",
-        "race": "Birman",
-        "origin": "Myanmar",
-        "description": "Deep blue eyes, white-gloved paws and balanced character."
-    }
+  {
+    photo: "https://cdn2.thecatapi.com/images/0XYvRd7oD.jpg",
+    breed: "Abyssinian",
+    origin: "Ethiopia",
+    description: "Athletic and endlessly curious; loves climbing and exploring high places."
+  },
+  {
+    photo: "https://cdn2.thecatapi.com/images/ozEvzdVM-.jpg",
+    breed: "Siamese",
+    origin: "Thailand",
+    description: "Vocal, affectionate, and people-oriented; thrives on human company."
+  },
+  {
+    photo: "https://cdn2.thecatapi.com/images/unX21IBVB.jpg",
+    breed: "Maine Coon",
+    origin: "United States",
+    description: "Gentle giant with a thick coat; friendly and keen to join every activity."
+  },
+  {
+    photo: "https://cdn2.thecatapi.com/images/O3btzLlsO.png",
+    breed: "Bengal",
+    origin: "United States",
+    description: "Striking rosetted coat; highly playful, energetic, and intelligent."
+  },
+  {
+    photo: "https://cdn2.thecatapi.com/images/8D--jCd21.jpg",
+    breed: "Persian",
+    origin: "Iran",
+    description: "Calm and elegant; enjoys quiet homes and needs regular grooming."
+  },
+  {
+    photo: "https://cdn2.thecatapi.com/images/06dgGmEOV.jpg",
+    breed: "Norwegian Forest",
+    origin: "Norway",
+    description: "Robust climber with a dense undercoat; loves space and tall scratching posts."
+  },
+  {
+    photo: "https://cdn2.thecatapi.com/images/BDb8ZXb1v.jpg",
+    breed: "Sphynx",
+    origin: "Canada",
+    description: "Hairless and very tactile; seeks warmth, cuddles, and constant attention."
+  },
+  {
+    photo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSnkxtjr-HUsTBYtz02P4FTVqAHGa6KfCHjXJEqEWe71T8opvQVstnl-qImOrTJ0jDHy8jv&s=10",
+    breed: "British Shorthair",
+    origin: "United Kingdom",
+    description: "Solid build and serene temperament; a fan of comfy couches and routine."
+  },
+  {
+    photo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqcP4oh9aa8lQUbENRwnXedNggizCvWCLwJm_CBdB-Ha2mrOFbDWIhTANyD3qkHpm6BWJS&s=10",
+    breed: "Ragdoll",
+    origin: "United States",
+    description: "Relaxed and docile; often goes limp when held—great for calm households."
+  },
+  {
+    photo: "https://www.catsbest.fr/wp-content/uploads/katze-russisch-blau-450x450.jpg",
+    breed: "Russian Blue",
+    origin: "Russia",
+    description: "Short, plush double coat; reserved with strangers but deeply loyal at home."
+  },
+  {
+    photo: "https://images.prismic.io/myelmut/Z1w0PZbqstJ98ekU_1.png?auto=format%2Ccompress&rect=47%2C0%2C1653%2C1240&w=3840&fit=max",
+    breed: "Chartreux",
+    origin: "France",
+    description: "Quiet, smiling expression; agile and well-suited to apartment living."
+  },
+  {
+    photo: "https://www.zooplus.fr/magazine/wp-content/uploads/2020/01/exotic-shorthair.webp",
+    breed: "Exotic Shorthair",
+    origin: "United States",
+    description: "Short-haired Persian cousin; affectionate, mellow, and nap-loving."
+  },
+  {
+    photo: "https://cdn2.thecatapi.com/images/HOrX5gwLS.jpg",
+    breed: "Birman",
+    origin: "Myanmar",
+    description: "Deep blue eyes and white “gloves”; balanced, gentle, and people-focused."
+  }
 ];
 
 document.addEventListener('DOMContentLoaded', () => {
-    let carrousel = document.getElementById("carrousel");
-    const modal = document.getElementById("catModal");
-    const closeBtn = document.querySelector(".close");
+  const carrousel = document.getElementById("carrousel");
+  const modal = document.getElementById("catModal");
+  const closeBtn = document.querySelector(".close");
 
-    // Jouer un son au chargement de la page
-    const audio = document.getElementById("audio");
-    audio.play();
+  // Play a sound on page load (may require user interaction depending on browser)
+  const audio = document.getElementById("audio");
+  if (audio && audio.play) { audio.play().catch(() => {}); }
 
-    // Fonction pour ouvrir la popup avec les informations du chat
-    function openModal(cat) {
-        document.getElementById("modalImage").src = cat.photo;
-        document.getElementById("modalImage").alt = cat.race;
-        document.getElementById("modalRace").textContent = cat.race;
-        document.getElementById("modalOrigin").textContent = `Origin: ${cat.origin}`;
-        document.getElementById("modalDescription").textContent = cat.description;
-        modal.style.display = "block";
-        document.body.style.overflow = "hidden"; // Empêcher le scroll en arrière-plan
-    }
+  function openModal(cat) {
+    document.getElementById("modalImage").src = cat.photo;
+    document.getElementById("modalImage").alt = cat.breed;
+    document.getElementById("modalRace").textContent = cat.breed;           // label keeps same id
+    document.getElementById("modalOrigin").textContent = `Origin: ${cat.origin}`;
+    document.getElementById("modalDescription").textContent = cat.description;
+    modal.style.display = "block";
+    document.body.style.overflow = "hidden";
+  }
 
-    // Fonction pour fermer la popup
-    function closeModal() {
-        modal.style.display = "none";
-        document.body.style.overflow = "auto"; // Réactiver le scroll
-    }
+  function closeModal() {
+    modal.style.display = "none";
+    document.body.style.overflow = "auto";
+  }
 
-    // Création d'une "carte" pour chaque chat
-    cats.forEach((cat, index) => {
-        let card = document.createElement('div');
-        card.className = 'card';
-        card.innerHTML = `
-            <img src="${cat.photo}" alt="${cat.race}">
-            <h2>${cat.race}</h2>
-            <p>Origin: ${cat.origin}</p>
-            <p>${cat.description}</p>
-        `;
+  cats.forEach((cat, index) => {
+    const card = document.createElement('div');
+    card.className = 'card';
+    card.innerHTML = `
+      <img src="${cat.photo}" alt="${cat.breed}">
+      <h2>${cat.breed}</h2>
+      <p>Origin: ${cat.origin}</p>
+      <p>${cat.description}</p>
+    `;
+    card.addEventListener('click', () => openModal(cat));
+    card.style.cursor = 'pointer';
+    carrousel.appendChild(card);
+    console.log(`Loaded cat ${index + 1}: ${cat.breed}`);
+  });
 
-        // Ajouter un événement de clic sur la carte pour ouvrir la popup
-        card.addEventListener('click', () => {
-            openModal(cat);
-        });
-
-        // Ajouter un style cursor pointer pour indiquer que la carte est cliquable
-        card.style.cursor = 'pointer';
-
-        carrousel.appendChild(card);
-        console.log(`Loaded cat ${index + 1}: ${cat.race}`);
-    });
-
-    // Fermer la popup en cliquant sur le bouton X
-    closeBtn.addEventListener('click', closeModal);
+  closeBtn.addEventListener('click', closeModal);
 });
