@@ -56,3 +56,22 @@ This code uses best practices in developpment and has been debuged to verify tha
 When adding new cat entries:
 - Add objects to the `cats` array in script.js:3-10
 - Each cat object requires: `photo` (URL), `race`, `origin`, `description`
+
+## Work repartition
+
+### Jules
+- Website architecture
+- Cat data structure
+- Easter eggs (audio integration)
+- Modal implementation for cat details (when you click on a cat card)
+- Navigation bar implementation
+- Form for cat submission
+- A little part of the CSS (just the forms, and inspired for the popups)
+- Readme documentation
+
+### Faris
+- Form validation logic
+- Cute animations, design(=theme) and transitions
+- CSS god icl (written by Jules)
+- Age calculator
+- Finding and adding the cats to the database (hardcoded array in script.js)
