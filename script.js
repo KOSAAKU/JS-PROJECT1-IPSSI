@@ -8,13 +8,13 @@ const cats = [
     description: "Athletic and endlessly curious; loves climbing and exploring high places."
   },
   {
-    photo: "https://cdn2.thecatapi.com/images/ozEvzdVM-.jpg",
+    photo: "https://ik.imagekit.io/yynn3ntzglc/cms/212_contenu1_104ac041a9_FVEhuH-TJHT.jpg",
     breed: "Siamese",
     origin: "Thailand",
     description: "Vocal, affectionate, and people-oriented; thrives on human company."
   },
   {
-    photo: "https://cdn2.thecatapi.com/images/unX21IBVB.jpg",
+    photo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMKQRDd0Yu9AbiU0ya4sev7_HK6lCB5Tz7sMniAepJH2jvhrl8nxusHThvS30XphEy2s5WWg&s=10",
     breed: "Maine Coon",
     origin: "United States",
     description: "Gentle giant with a thick coat; friendly and keen to join every activity."
@@ -26,7 +26,7 @@ const cats = [
     description: "Striking rosetted coat; highly playful, energetic, and intelligent."
   },
   {
-    photo: "https://cdn2.thecatapi.com/images/8D--jCd21.jpg",
+    photo: "https://www.purina.co.uk/sites/default/files/styles/square_medium_440x440/public/2022-06/Persian%20Long%20Hair.2.jpg?h=00e3f93f&itok=kQYvwP0Z",
     breed: "Persian",
     origin: "Iran",
     description: "Calm and elegant; enjoys quiet homes and needs regular grooming."
