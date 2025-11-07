@@ -29,7 +29,6 @@ document.addEventListener('DOMContentLoaded', () => {
         const humanAgeValue = getCatHumanAge(catAgeValue);
         const message = `A ${catAgeValue} year old cat is approximately ${humanAgeValue} human years old.`;
 
-        alert(message);
         resultElement.textContent = message;
     });
 });

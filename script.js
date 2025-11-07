@@ -3,81 +3,81 @@
 const cats = [
     {
         "photo": "https://cdn2.thecatapi.com/images/0XYvRd7oD.jpg",
-        "race": "Abyssin",
-        "origin": "Ethiopie",
-        "description": "Gabarit athletique, tres curieux et adore grimper partout."
+        "race": "Abyssinian",
+        "origin": "Ethiopia",
+        "description": "Athletic build, very curious and loves to climb everywhere."
     },
     {
-        "photo": "https://cdn2.thecatapi.com/images/ai6Jps4sx.jpg",
-        "race": "Siamois",
-        "origin": "Thailande",
-        "description": "Chat bavard et affectueux, cherche toujours la compagnie humaine."
+        "photo": "https://cdn2.thecatapi.com/images/ozEvzdVM-.jpg",
+        "race": "Siamese",
+        "origin": "Thailand",
+        "description": "Talkative and affectionate cat, always seeks human company."
     },
     {
-        "photo": "https://cdn2.thecatapi.com/images/ME3ugsjMe.jpg",
+        "photo": "https://cdn2.thecatapi.com/images/unX21IBVB.jpg",
         "race": "Maine Coon",
-        "origin": "Etats-Unis",
-        "description": "Geant doux a la fourrure epaisse, aime participer a toutes les activites."
+        "origin": "United States",
+        "description": "Gentle giant with thick fur, loves to participate in all activities."
     },
     {
         "photo": "https://cdn2.thecatapi.com/images/O3btzLlsO.png",
         "race": "Bengal",
-        "origin": "Etats-Unis",
-        "description": "Pelage tachete spectaculaire, tres joueur et plein d energie."
+        "origin": "United States",
+        "description": "Spectacular spotted coat, very playful and full of energy."
     },
     {
-        "photo": "https://cdn2.thecatapi.com/images/IFXsxmXLm.jpg",
-        "race": "Persan",
+        "photo": "https://cdn2.thecatapi.com/images/8D--jCd21.jpg",
+        "race": "Persian",
         "origin": "Iran",
-        "description": "Silhouette elegante, temperament calme et besoin quotidien de brossage."
+        "description": "Elegant silhouette, calm temperament and daily brushing needed."
     },
     {
-        "photo": "https://cdn2.thecatapi.com/images/N-94oSJuf.jpg",
-        "race": "Norvegien",
-        "origin": "Norvege",
-        "description": "Aime les grands espaces, robuste et dote d un sous-poil epais."
+        "photo": "https://cdn2.thecatapi.com/images/06dgGmEOV.jpg",
+        "race": "Norwegian Forest",
+        "origin": "Norway",
+        "description": "Loves wide open spaces, robust and equipped with thick undercoat."
     },
     {
-        "photo": "https://cdn2.thecatapi.com/images/d5i.jpg",
+        "photo": "https://cdn2.thecatapi.com/images/BDb8ZXb1v.jpg",
         "race": "Sphynx",
         "origin": "Canada",
-        "description": "Chat sans poil, tres tactile et friand de chaleur et d attention."
+        "description": "Hairless cat, very tactile and loves warmth and attention."
     },
     {
-        "photo": "https://cdn2.thecatapi.com/images/s4wQfYoEk.jpg",
+        "photo": "https://cdn2.thecatapi.com/images/_4Aq8O6e6.jpg",
         "race": "British Shorthair",
-        "origin": "Royaume-Uni",
-        "description": "Corps massif et calme olympien, prefere les canapes confortables."
+        "origin": "United Kingdom",
+        "description": "Massive body and olympic calmness, prefers comfortable couches."
     },
     {
-        "photo": "https://cdn2.thecatapi.com/images/KBroiVNCM.jpg",
+        "photo": "https://cdn2.thecatapi.com/images/oGvStatRe.jpg",
         "race": "Ragdoll",
-        "origin": "Etats-Unis",
-        "description": "Se detend completement dans les bras, ideal pour les foyers tranquilles."
+        "origin": "United States",
+        "description": "Completely relaxes in your arms, ideal for calm households."
     },
     {
-        "photo": "https://cdn2.thecatapi.com/images/DbwiefiaY.jpg",
-        "race": "Bleu Russe",
-        "origin": "Russie",
-        "description": "Pelage double court, discret mais tres fidele a sa famille."
+        "photo": "https://cdn2.thecatapi.com/images/Rhj-JsTLP.jpg",
+        "race": "Russian Blue",
+        "origin": "Russia",
+        "description": "Short double coat, discreet but very loyal to its family."
     },
     {
-        "photo": "https://cdn2.thecatapi.com/images/UkeJzQ62A.jpg",
+        "photo": "https://cdn2.thecatapi.com/images/Z5llOwN5I.jpg",
         "race": "Chartreux",
         "origin": "France",
-        "description": "Sourire legendaire, agile et adapte a la vie en appartement."
+        "description": "Legendary smile, agile and adapts well to apartment living."
     },
     {
-        "photo": "https://cdn2.thecatapi.com/images/BkqUm9tez.jpg",
+        "photo": "https://cdn2.thecatapi.com/images/wpK2GtlaD.jpg",
         "race": "Exotic Shorthair",
-        "origin": "Etats-Unis",
-        "description": "Version a poil court du persan, adore les siestes et les caresses."
+        "origin": "United States",
+        "description": "Short-haired version of Persian, loves naps and cuddles."
     },
     {
-        "photo": "https://cdn2.thecatapi.com/images/1f1.jpg",
-        "race": "Sacre de Birmanie",
+        "photo": "https://cdn2.thecatapi.com/images/HOrX5gwLS.jpg",
+        "race": "Birman",
         "origin": "Myanmar",
-        "description": "Yeux bleus profonds, pattes gant de blanc et caractere equilibre."
+        "description": "Deep blue eyes, white-gloved paws and balanced character."
     }
 ];
 
