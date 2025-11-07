@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-This is a simple website for a "Cat Encyclopedia" - a for IPSSI. The project consists of vanilla HTML, CSS, and JavaScript files that can be opened directly in a browser.
+This is a simple website for a "Cat Encyclopedia" (aka WikiCat) - a project for IPSSI. The project consists of vanilla HTML, CSS, and JavaScript files that can be opened directly in a browser.
 
 ## Project Structure
 
