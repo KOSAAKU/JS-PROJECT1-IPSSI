@@ -72,6 +72,6 @@ When adding new cat entries:
 ### Faris
 - Form validation logic
 - Cute animations, design(=theme) and transitions
-- CSS god icl (written by Jules)
+- CSS Boss icl (written by Jules)
 - Age calculator
 - Finding and adding the cats to the database (hardcoded array in script.js)
